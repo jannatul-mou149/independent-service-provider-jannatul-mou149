@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "name": "Premium Wedding Photoshoot",
+        "price": "30000",
+        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa."
+    },
+    {
+        "id": 2,
+        "name": "One Day videography",
+        "price": "10000",
+        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa."
+    },
+    {
+        "id": 3,
+        "name": "Haldi Shooting",
+        "price": "15000",
+        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa."
+    },
+    {
+        "id": 4,
+        "name": "Mehendi Shooting",
+        "price": "10000",
+        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa."
+    },
+    {
+        "id": 5,
+        "name": "Outdoor Shooting",
+        "price": "45000",
+        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa."
+    },
+    {
+        "id": 6,
+        "name": "VIP Photoshoot",
+        "price": "50000",
+        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa"
+    }
+]
