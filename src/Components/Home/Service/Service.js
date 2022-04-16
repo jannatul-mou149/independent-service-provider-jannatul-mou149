@@ -1,24 +1,15 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
+import './Service.css';
 
-const Service = () => {
-    const [services, setServices] = useState([]);
-
-    useEffect(() => {
-        fetch('')
-            .then(res => res.json())
-            .then(data => setServices(data));
-    }, [])
-
+const Service = ({ service }) => {
+    const { id, name, description, price, img } = service;
     return (
-        <div id="services" className='container'>
-            <div className="row">
-                <h1 className='text-secondary text-center mt-5'> Our Services</h1>
-                <div>
-                    {
-
-                    }
-                </div>
-            </div>
+        <div className='service'>
+            <img className='w-100' src={img} alt="" />
+            <h3 className='mt-5'>{name}</h3>
+            <p>Price: {price} Tk</p>
+            <p><small>{description}</small></p>
+            <button className='btn btn-primary'>Book Now</button>
         </div>
     );
 };
