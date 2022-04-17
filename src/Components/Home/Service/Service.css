@@ -3,4 +3,14 @@
     border-radius: 10px;
     padding-bottom: 10px;
     text-align: center;
+    padding: 20px;
+}
+
+.service img {
+    border-radius: 10px;
+}
+
+.service {
+    box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.05);
+    transition: all .55s ease-in-out;
 }

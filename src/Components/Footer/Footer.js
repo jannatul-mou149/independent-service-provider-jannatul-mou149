@@ -24,7 +24,7 @@ const Footer = () => {
                     </div>
                 </div>
                 <div class="footer-right col-md-4 col-sm-6">
-                    <h2> CreativeEyes Photography<span> logo</span></h2>
+                    <h2> Mou Photography<span> logo</span></h2>
                     <p class="menu">
                         <a href="/home"> Home</a> |
                         <a href="/about"> About</a> |
@@ -33,7 +33,7 @@ const Footer = () => {
                         <a href="/"> News</a> |
                         <a href="/"> Contact</a>
                     </p>
-                    <p class="name"> CreativeEyes Photography &copy; {new Date().getFullYear()}</p>
+                    <p class="name"> Mou Photography &copy; {new Date().getFullYear()}</p>
                 </div>
             </footer>
         </div>

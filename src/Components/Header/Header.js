@@ -17,15 +17,16 @@ const Header = () => {
                 <Navbar collapseOnSelect expand="lg" fixed="top" bg="light" variant="light">
                     <Container className='fw-bold'>
                         <Navbar.Brand as={Link} to="/">
-                            <img src={logo} height={60} width={150} alt="" className='me-2' />
+                            <img src={logo} width={150} alt="" className='me-2' />
                         </Navbar.Brand>
                         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                         <Navbar.Collapse id="responsive-navbar-nav">
                             <Nav className="me-auto">
-                                <Nav.Link href="home#services">Services</Nav.Link>
-                                <Nav.Link as={Link} to="blogs">Blogs</Nav.Link>
+
                             </Nav>
                             <Nav>
+                                <Nav.Link href="home#services">Services</Nav.Link>
+                                <Nav.Link as={Link} to="blogs">Blogs</Nav.Link>
                                 <Nav.Link as={Link} to="about">About</Nav.Link>
                             </Nav>
                             {
