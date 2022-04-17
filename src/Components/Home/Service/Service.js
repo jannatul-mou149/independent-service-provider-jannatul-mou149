@@ -6,13 +6,15 @@ const Service = ({ service }) => {
     const { name, description, price, img } = service;
     return (
         <div className='service'>
-            <img className='w-100' src={img} alt="" />
-            <h4 className='mt-5 fw-bold'>{name}</h4>
-            <p>Price: {price} Tk</p>
-            <p><small>{description}</small></p>
-            <Link to="/checkout">
-                <button className='btn btn-primary'>Book Now</button>
-            </Link>
+            <img className='service-image' src={img} alt="" />
+            <div className='p-4'>
+                <h4>{name}</h4>
+                <p>Price: {price} Tk</p>
+                <p><small>{description}</small></p>
+                <Link to="/checkout">
+                    <button className='btn btn-primary'>Book Now</button>
+                </Link>
+            </div>
         </div>
     );
 };

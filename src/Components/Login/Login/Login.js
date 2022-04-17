@@ -6,6 +6,7 @@ import auth from '../../../firebase.init';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import SocialLogin from './SocialLogin/SocialLogin';
+import './Login.css';
 
 const Login = () => {
     const emailRef = useRef('');
@@ -55,27 +56,29 @@ const Login = () => {
     }
 
     return (
-        <div className='container w-25 mx-auto mt-5 vh-100'>
+        <div className='container'>
             <br /><br />
-            <h2 className='mb-5 mt-5'>Please Login</h2>
-            <Form onSubmit={handleSubmit}>
-                <Form.Group className="mb-3" controlId="formBasicEmail">
-                    <Form.Control ref={emailRef} type="email" placeholder="Enter email" required />
-                </Form.Group>
+            <div className='from-container mx-auto'>
+                <h2 className='mb-5 mt-5'>Please Login</h2>
+                <Form onSubmit={handleSubmit}>
+                    <Form.Group className="mb-3" controlId="formBasicEmail">
+                        <Form.Control ref={emailRef} type="email" placeholder="Enter email" required />
+                    </Form.Group>
 
-                <Form.Group className="mb-3" controlId="formBasicPassword">
-                    <Form.Control ref={passwordRef} type="password" placeholder="Password" required />
-                </Form.Group>
+                    <Form.Group className="mb-3" controlId="formBasicPassword">
+                        <Form.Control ref={passwordRef} type="password" placeholder="Password" required />
+                    </Form.Group>
 
-                <Button variant="primary" type="submit">
-                    Login
-                </Button>
-            </Form>
-            {errorMsg}
-            <p className='mt-5'>New to here? <Link to="/register" className='text-warning pe-auto text-decoration-none' onClick={navigateToRegister}>Please Register</Link></p>
-            <p>Forget Password? <button className='btn btn-link text-warning pe-auto text-decoration-none' onClick={resetPassword}>Reset Password</button> </p>
-            <ToastContainer />
-            <SocialLogin></SocialLogin>
+                    <Button variant="primary" type="submit">
+                        Login
+                    </Button>
+                </Form>
+                {errorMsg}
+                <p className='mt-5'>New to here? <Link to="/register" className='text-warning pe-auto text-decoration-none' onClick={navigateToRegister}>Please Register</Link></p>
+                <p>Forget Password? <button className='btn btn-link text-warning pe-auto text-decoration-none' onClick={resetPassword}>Reset Password</button> </p>
+                <ToastContainer />
+                <SocialLogin></SocialLogin>
+            </div>
         </div>
     );
 };

@@ -32,26 +32,28 @@ const Register = () => {
     }
 
     return (
-        <div className='container w-25 mx-auto mt-5 vh-100'>
+        <div className='container'>
             <br /><br />
-            <h3 className='mb-5 mt-5'>Register now</h3>
-            <Form onSubmit={handleRegister}>
-                <Form.Group className="mb-3">
-                    <Form.Control type="text" name="name" placeholder="Your Name" />
-                </Form.Group>
-                <Form.Group className="mb-3" controlId="formBasicEmail">
-                    <Form.Control type="email" name="email" placeholder="Enter email" required />
-                </Form.Group>
-                <Form.Group className="mb-3" controlId="formBasicPassword">
-                    <Form.Control type="password" name="password" placeholder="Password" required />
-                </Form.Group>
+            <div className="from-container mx-auto">
+                <h3 className='mb-5 mt-5'>Register now</h3>
+                <Form onSubmit={handleRegister}>
+                    <Form.Group className="mb-3">
+                        <Form.Control type="text" name="name" placeholder="Your Name" />
+                    </Form.Group>
+                    <Form.Group className="mb-3" controlId="formBasicEmail">
+                        <Form.Control type="email" name="email" placeholder="Enter email" required />
+                    </Form.Group>
+                    <Form.Group className="mb-3" controlId="formBasicPassword">
+                        <Form.Control type="password" name="password" placeholder="Password" required />
+                    </Form.Group>
 
-                <Button variant="primary" type="submit">
-                    Register
-                </Button>
-            </Form>
-            <p className='mt-5'>Already have an account? <Link to="/login" className='text-warning pe-auto text-decoration-none' onClick={navigateToLogin}>Please Login</Link></p>
-            <SocialLogin></SocialLogin>
+                    <Button variant="primary" type="submit">
+                        Register
+                    </Button>
+                </Form>
+                <p className='mt-5'>Already have an account? <Link to="/login" className='text-warning pe-auto text-decoration-none' onClick={navigateToLogin}>Please Login</Link></p>
+                <SocialLogin></SocialLogin>
+            </div>
         </div>
     );
 };
