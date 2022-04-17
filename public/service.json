@@ -8,14 +8,14 @@
     },
     {
         "id": 2,
-        "name": "One Day videography",
+        "name": "One Day Cinematography",
         "price": "20000",
         "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
         "img": "https://i.ibb.co/pdz5B3j/img-2.jpg"
     },
     {
         "id": 3,
-        "name": "Elegent Photoshooting",
+        "name": "Outdoor Shooting",
         "price": "55000",
         "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
         "img": "https://i.ibb.co/L6576nY/img-3.jpg"
@@ -29,14 +29,14 @@
     },
     {
         "id": 5,
-        "name": "Outdoor Shooting",
+        "name": "Elegent Photoshooting",
         "price": "45000",
         "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
         "img": "https://i.ibb.co/jbS6KJw/img-5.jpg"
     },
     {
         "id": 6,
-        "name": "VIP Photoshoot",
+        "name": "Engagement Photoshoot",
         "price": "50000",
         "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa",
         "img": "https://i.ibb.co/h2RH9XF/img-6.jpg"
