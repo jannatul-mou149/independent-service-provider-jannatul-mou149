@@ -3,13 +3,15 @@ import { Button, Form } from 'react-bootstrap';
 import { useSignInWithEmailAndPassword } from 'react-firebase-hooks/auth';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
 import auth from '../../../firebase.init';
+import SocialLogin from './SocialLogin/SocialLogin';
 
 const Login = () => {
     const emailRef = useRef('');
     const passwordRef = useRef('');
     const navigate = useNavigate();
     const location = useLocation();
-
+    let from = location.state?.from?.pathname || "/";
+    let errorMsg;
     const [
         signInWithEmailAndPassword,
         user,
@@ -26,7 +28,11 @@ const Login = () => {
     }
 
     if (user) {
-        navigate('/home');
+        navigate(from, { replace: true });
+    }
+
+    if (error) {
+        errorMsg = <p className='text-danger'>Error: {error.message}</p>
     }
 
     const navigateToRegister = event => {
@@ -51,7 +57,9 @@ const Login = () => {
                     Login
                 </Button>
             </Form>
+            {errorMsg}
             <p>New to here? <Link to="/register" className='text-warning pe-auto text-decoration-none' onClick={navigateToRegister}>Please Register</Link></p>
+            <SocialLogin></SocialLogin>
         </div>
     );
 };
