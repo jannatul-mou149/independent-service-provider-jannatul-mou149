@@ -3,42 +3,42 @@
         "id": 1,
         "name": "Premium Wedding Photoshoot",
         "price": "30000",
-        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
+        "description": "Premium Wedding Photoshoot package includes 500 soft copy and 250 edited and printed album.One day cinematography with DvD",
         "img": "https://i.ibb.co/rfy6Hzm/img-1.jpg"
     },
     {
         "id": 2,
         "name": "One Day Cinematography",
         "price": "20000",
-        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
+        "description": "One Day Cinematography package includes soft copy cinema and edited copy with music and raw.One day cinematography with DvD",
         "img": "https://i.ibb.co/pdz5B3j/img-2.jpg"
     },
     {
         "id": 3,
         "name": "Outdoor Shooting",
         "price": "55000",
-        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
+        "description": "Outdoor Shooting package includes 500 soft copy and 250 edited and printed album.One day outdoor cinematography with DvD",
         "img": "https://i.ibb.co/L6576nY/img-3.jpg"
     },
     {
         "id": 4,
         "name": "Elegent Cinematography",
         "price": "60000",
-        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
+        "description": "Elegent Cinematography package includes unlimited clicks and 500 edited and printed album.One day and night cinematography with DvD",
         "img": "https://i.ibb.co/C743bH1/img-4.jpg"
     },
     {
         "id": 5,
         "name": "Elegent Photoshooting",
         "price": "45000",
-        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
+        "description": "Elegent Photoshooting package includes unlimited clicks and 500 edited and printed album.One day and night photoshoot.",
         "img": "https://i.ibb.co/jbS6KJw/img-5.jpg"
     },
     {
         "id": 6,
         "name": "Engagement Photoshoot",
         "price": "50000",
-        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa",
+        "description": "Engagement Photoshoot package includes 500 soft copy and 250 edited and printed album.One day cinematography with DvD",
         "img": "https://i.ibb.co/h2RH9XF/img-6.jpg"
     }
 ]

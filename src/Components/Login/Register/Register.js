@@ -32,8 +32,9 @@ const Register = () => {
     }
 
     return (
-        <div className='container w-25 mx-auto mt-5'>
-            <h3 className='mb-5'>Register now</h3>
+        <div className='container w-25 mx-auto mt-5 vh-100'>
+            <br /><br />
+            <h3 className='mb-5 mt-5'>Register now</h3>
             <Form onSubmit={handleRegister}>
                 <Form.Group className="mb-3">
                     <Form.Control type="text" name="name" placeholder="Your Name" />
@@ -44,14 +45,12 @@ const Register = () => {
                 <Form.Group className="mb-3" controlId="formBasicPassword">
                     <Form.Control type="password" name="password" placeholder="Password" required />
                 </Form.Group>
-                <Form.Group className="mb-3" controlId="formBasicCheckbox">
-                    <Form.Check type="checkbox" label="Check me out" />
-                </Form.Group>
+
                 <Button variant="primary" type="submit">
                     Register
                 </Button>
             </Form>
-            <p>Already have an account? <Link to="/login" className='text-warning pe-auto text-decoration-none' onClick={navigateToLogin}>Please Login</Link></p>
+            <p className='mt-5'>Already have an account? <Link to="/login" className='text-warning pe-auto text-decoration-none' onClick={navigateToLogin}>Please Login</Link></p>
             <SocialLogin></SocialLogin>
         </div>
     );
